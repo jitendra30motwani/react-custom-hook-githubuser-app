@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+li {
+
+  list-style: none;
+
+}
+
+.colorize .box {
+
+  width: 13rem;
+  height: 13rem;
+
+}
