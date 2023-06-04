@@ -1,7 +1,7 @@
 import RenderUserDetailComponent from "./RenderUserDetailComponent";
 import UseGithubComponent from "./hooks/UseGithubComponent";
 
-const GithubUserComponent = ({userName}) => {
+const GithubUserComponent = (userName) => {
 
     const [userDetail, error, loading, ok] = UseGithubComponent(userName);
 
